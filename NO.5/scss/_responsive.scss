@@ -1,0 +1,14 @@
+@media screen and (max-width: 834px) {
+	.main {
+		&_top {
+			flex-flow: column;
+		}
+		&_left {
+			width: 100%;
+			height: auto;
+		}
+		&_right {
+			width: 100%;
+		}
+	}
+}

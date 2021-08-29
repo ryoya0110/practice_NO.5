@@ -1,0 +1,94 @@
+.main {
+	&_top {
+		display: flex;
+		margin-bottom: 60px;
+	}
+	&_left {
+		height: 700px;
+		width: 50%;
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+	&_right {
+		width: 50%;
+		padding: 40px 5% 0;
+		box-sizing: border-box;
+		h1 {
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+		p {
+			margin: 20px 0;
+			line-height: 1.5;
+			font-size: 1.1rem;
+		}
+		.ttl {
+			line-height: 2;
+			font-size: 1.3rem;
+			border-bottom: 1px solid $border;
+			margin-bottom: 15px;
+		}
+		dl {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			font-size: 1.1rem;
+			margin-bottom: 40px;
+			dt {
+				width: 80%;
+				padding: 8px 0;
+				border-bottom: 1px dotted $border;
+			}
+			dd {
+				width: 20%;
+				text-align: right;
+				padding: 8px 0;
+				border-bottom: 1px dotted $border;
+			}
+		}
+		ol {
+			margin-left: 20px;
+			li {
+				border-bottom: 1px dotted $border;
+				padding: 8px 0;
+				font-size: 1.1rem;
+			}
+		}
+	}
+	&_bottom {
+		text-align: center;
+		margin-bottom: 80px;
+		a {
+			display: inline-block;
+			border: 1px solid $txt;
+			padding: 18px 60px;
+			text-decoration: none;
+		}
+	}
+}
+
+#footer {
+	padding: 20px 0;
+	#sns {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+		li {
+			margin-right: 21px;
+			list-style: none;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				font-size: .7rem;
+			}
+		}
+	}
+	p {
+		font-size: .7rem;
+		text-align: center;
+	}
+}

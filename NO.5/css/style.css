@@ -1,0 +1,153 @@
+body {
+  font-weight: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+  color: #2B2A27;
+}
+
+a {
+  color: #2B2A27;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.main_left {
+  height: 700px;
+  width: 50%;
+}
+
+.main_left img {
+  height: 100%;
+  width: 100%;
+}
+
+.main_right {
+  width: 50%;
+  padding: 40px 5% 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_right h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main_right p {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.main_right .ttl {
+  line-height: 2;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 15px;
+}
+
+.main_right dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.main_right dl dt {
+  width: 80%;
+  padding: 8px 0;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+.main_right dl dd {
+  width: 20%;
+  text-align: right;
+  padding: 8px 0;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+.main_right ol {
+  margin-left: 20px;
+}
+
+.main_right ol li {
+  border-bottom: 1px dotted #CCCCCC;
+  padding: 8px 0;
+  font-size: 1.1rem;
+}
+
+.main_bottom {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.main_bottom a {
+  display: inline-block;
+  border: 1px solid #2B2A27;
+  padding: 18px 60px;
+  text-decoration: none;
+}
+
+#footer {
+  padding: 20px 0;
+}
+
+#footer #sns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+#footer #sns li {
+  margin-right: 21px;
+  list-style: none;
+}
+
+#footer #sns li:last-child {
+  margin-right: 0;
+}
+
+#footer #sns li a {
+  font-size: .7rem;
+}
+
+#footer p {
+  font-size: .7rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 834px) {
+  .main_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .main_left {
+    width: 100%;
+    height: auto;
+  }
+  .main_right {
+    width: 100%;
+  }
+}
